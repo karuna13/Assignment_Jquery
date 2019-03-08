@@ -4,6 +4,9 @@
 <meta charset="utf-8">
 <title>jQuery Bind Click Event to Dynamically added Elements</title>
 <style>
+body{
+margin: 20px;
+}
 ul {
   list-style-type: none;
   margin: 0 0 -5px 0;
@@ -25,6 +28,7 @@ input:focus{
   }
 .header{
   border:1px solid #808080;
+  height: 54px;
 }
 .close{
   float:right;
@@ -38,9 +42,10 @@ input:focus{
     margin: 4px;
 }
 .second {
-     width: 98%;
+    width: 98%;
     float:left;
-	border:1px solid #808080
+	height: 0px
+	border-bottom: 1px solid gray
 }
 </style>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
